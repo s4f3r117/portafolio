@@ -1,0 +1,86 @@
+ <section id="contact" class="contact">
+    <h2 class="heading">Contacto</h2>
+
+    <div class="contact-container">
+        <div class="contact-box">
+            <i class='bx bxl-whatsapp'></i></a>
+            <h3>Whatsapp</h3>
+                <a href="https://wa.me/5619842153?text=Buen%20día,%20espero%20tu%20mensaje." class="btn">Whatsapp aquí</a>
+        </div>
+        <div class="contact-box">
+            <i class='bx bxl-instagram'></i>
+            <h3>Instagram</h3>
+                <a href="https://www.instagram.com/liz.hjs?igsh=MTFmMXRna2o2cXlrbA==" class="btn">Mi perfil</a>
+        </div>
+    </div>
+</section>
+
+
+
+contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--snd-bg-color);
+}
+
+.contact h2 {
+    margin-bottom: 5rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.contact-container .contact-box {
+    flex: 1 1 30rem;
+    background: var(--bg-color);
+    padding: 6rem 2rem 6rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .3rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.contact-container .contact-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.contact-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.contact-box h3 {
+ font-size: 2.6rem;
+}
+
+.contact-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: none;
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 0 1.6rem var(--main-color);
+}
